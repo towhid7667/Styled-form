@@ -12,7 +12,7 @@
 
 <body>
     <section class="container">
-        <div class="row">
+        <div class="row m-3">
             <div class="col-md-6 d-flex flex-column justify-content-center align-item-center">
                 <h3>Please Register Here</h3>
                 <form>
@@ -20,13 +20,29 @@
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                         <label for="floatingInput">Email address</label>
                     </div>
-                    <div class="form-floating">
+                    <div class="form-floating mb-3">
                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                         <label for="floatingPassword">Password</label>
                     </div>
+
+                    <select class="form-select mb-3" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Two</option>
+                        <option value="Secret">Sectret</option>
+                    </select>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Please Accept <a href=""> Terms & Condition</a>
+                        </label>
+                    </div>
+
+                    <input class="btn btn-success" type="submit" value="Register">
                 </form>
             </div>
-            <div class="col-md-6 mt-3">
+            <div class="col-md-6 ">
                 <img class="img-fluid" src="img/01.jpg" alt="">
             </div>
         </div>
